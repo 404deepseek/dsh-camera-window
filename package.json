@@ -1,0 +1,35 @@
+{
+  "name": "dsh-camera-window",
+  "version": "1.0.4",
+  "description": "心灵之窗：接入摄像头，让大肥鱼看看你的样子和外面的世界",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "camera",
+    "webcam",
+    "vision"
+  ],
+  "engines": {
+    "node": ">=20"
+  }
+}

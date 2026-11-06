@@ -1,0 +1,7 @@
+- insert:
+    - id: dsh-camera-window
+      name: dsh-camera-window
+      config:
+        pythonPath: ""
+        outDir: ""
+        defaultIndex: 0
